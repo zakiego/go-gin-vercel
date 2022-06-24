@@ -54,6 +54,7 @@ yarn deploy:prod
 
 ## Reference
 
+- <https://vercel.com/docs/project-configuration>
 - <https://vercel.com/docs/runtimes#official-runtimes/go>
 - <https://vercel.com/docs/cli>
 - <https://github.com/kirito41dd/vercel-faas>
