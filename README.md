@@ -2,6 +2,11 @@
 
 Starter untuk menjalankan web framework [Gin](https://github.com/gin-gonic/gin) pada serverless [Vercel](https://vercel.com/).
 
+## Demo
+
+- <https://go-gin-vercel.vercel.app/api/hi>
+- <https://go-gin-vercel.vercel.app/api/ping>
+
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com):
