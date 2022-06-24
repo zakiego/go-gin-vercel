@@ -13,19 +13,15 @@ var (
 )
 
 func registerRouter(r *gin.RouterGroup) {
-	r.GET("/hello", handler.Ping)
+	r.GET("/ping", handler.Ping)
 }
 
 // init gin app
 func init() {
 	app = gin.New()
 
-	// Handling routing errors
-	app.NoRoute(func(c *gin.Context) {
-		c.JSON(http.StatusBadRequest, gin.H{
-			"errors": "This page could not be found",
-		})
-	})
+	// handling routing errors
+	app.NoRoute(handler.ErrRouter)
 
 	// must /api/xxx
 	r := app.Group("/api")

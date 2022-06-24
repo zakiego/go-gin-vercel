@@ -13,5 +13,7 @@ func Ping(c *gin.Context) {
 }
 
 func ErrRouter(c *gin.Context) {
-	c.String(http.StatusBadRequest, "url err")
+	c.JSON(http.StatusBadRequest, gin.H{
+		"errors": "this page could not be found",
+	})
 }
