@@ -7,11 +7,13 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/api/hello"
+      "destination": "/api",
+      "permanent": false
     },
     {
       "source": "/api",
-      "destination": "/api/hello"
+      "destination": "/api/ping",
+      "permanent": false
     }
   ],
   "rewrites": [
