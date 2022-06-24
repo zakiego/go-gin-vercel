@@ -49,7 +49,7 @@ yarn deploy
 6. Deploy ke Vercel versi [production](https://vercel.com/docs/cli#introduction/unique-options/prod)
 
 ```bash
-yarn deploy
+yarn deploy:prod
 ```
 
 ## Reference
