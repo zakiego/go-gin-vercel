@@ -10,7 +10,15 @@ Deploy the example using [Vercel](https://vercel.com):
 
 ## How to use
 
-1. Install [Vercel CLI](https://vercel.com/docs/clihttps://vercel.com/docs/cli)
+1. Clone repository
+
+```bash
+git clone https://github.com/zakiego/go-gin-vercel
+
+cd go-gin-vercel
+```
+
+2. Install [Vercel CLI](https://vercel.com/docs/clihttps://vercel.com/docs/cli)
 
 ```bash
 yarn global add vercel
@@ -20,25 +28,25 @@ or
 npm i -g vercel
 ```
 
-2. Install package.json
+3. Install package.json
 
 ```bash
 yarn install
 ```
 
-3. Menjalankan di local
+4. Menjalankan di local
 
 ```bash
 yarn dev
 ```
 
-4. Deploy ke vercel
+5. Deploy ke vercel
 
 ```bash
 yarn deploy
 ```
 
-5. Deploy ke Vercel versi [production](https://vercel.com/docs/cli#introduction/unique-options/prod)
+6. Deploy ke Vercel versi [production](https://vercel.com/docs/cli#introduction/unique-options/prod)
 
 ```bash
 yarn deploy
