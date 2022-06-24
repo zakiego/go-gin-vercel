@@ -14,6 +14,7 @@ var (
 
 func registerRouter(r *gin.RouterGroup) {
 	r.GET("/ping", handler.Ping)
+	r.GET("/hi", handler.Hi)
 }
 
 // init gin app

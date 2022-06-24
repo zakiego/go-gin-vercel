@@ -12,6 +12,12 @@ func Ping(c *gin.Context) {
 	})
 }
 
+func Hi(c *gin.Context) {
+	c.JSON(http.StatusOK, gin.H{
+		"hi": "zakiego",
+	})
+}
+
 func ErrRouter(c *gin.Context) {
 	c.JSON(http.StatusBadRequest, gin.H{
 		"errors": "this page could not be found",
