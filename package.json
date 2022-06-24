@@ -1,0 +1,17 @@
+{
+  "name": "go-gin-vercel",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "zakiego",
+  "repository": "github.com/zakiego/go-gin-vercel",
+  "scripts": {
+    "setup": "yarn vercel login && yarn vercel link",
+    "start": "yarn vercel dev",
+    "dev": "yarn start",
+    "deploy": "yarn vercel",
+    "deploy:prod": "yarn vercel --prod"
+  },
+  "dependencies": {
+    "vercel": "^25.1.0"
+  }
+}

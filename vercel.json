@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "github": {
+    "silent": true
+  },
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/api/hello"
+    },
+    {
+      "source": "/api",
+      "destination": "/api/hello"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/launcher.go"
+    }
+  ]
+}
