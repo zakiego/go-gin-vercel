@@ -52,7 +52,7 @@ yarn deploy
 yarn deploy
 ```
 
-## Referensi
+## Reference
 
 - <https://vercel.com/docs/runtimes#official-runtimes/go>
 - <https://vercel.com/docs/cli>
